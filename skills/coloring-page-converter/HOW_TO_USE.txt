@@ -1,0 +1,53 @@
+HOW TO USE: coloring-page-converter
+===================================
+
+PURPOSE
+  Translates reference photos, AI art, or sketches into professional, high-precision
+  digital coloring book pages using the canonical prompt. Enforces pure solid black
+  lines on flat white backgrounds, leak-proof closed paths for instant bucket/drag-fill,
+  fingertip tap targets, aspect ratio preservation, and produces unwatermarked master
+  files alongside watermarked listing previews.
+
+CAPABILITIES
+  - Applies Canonical Translation Prompt to generate crisp pen-and-ink line art
+  - Binary monochrome enforcement (pure #000000 on flat #FFFFFF)
+  - Flood-fill closed contour verification (zero leaks for bucket fill)
+  - Ergonomic tablet tap target filtering (merges microscopic sub-fingertip specks)
+  - Native iPad canvas sizing (2048x2732 / 2732x2048) without cropping or squishing
+  - Print-ready PDFs (US Letter and A4) at 300 DPI
+  - Automated QC reporting with 400% zoom proof crop
+
+USE CASES
+  - "Convert this photo into a clean adult coloring book page"
+  - "Create a coloring page translation of this creature render"
+  - "Extract leak-proof line art from this image for Procreate"
+  - "Turn this concept art into a digital coloring page"
+
+IDEAS
+  - Use as Stage 1 inside the larger coloring-book-pipeline
+  - Convert custom animal, creature, floral, or architecture photos into coloring pages
+  - Export transparent PNGs for immediate import into Procreate layers
+
+PROMPTS YOU CAN PASTE
+  /coloring-page-converter "C:\Users\<you>\OneDrive\Pictures\creature.jpg"
+
+  Convert this reference image into a digital coloring book page.
+
+  Create coloring book translation of this image with name "Eldritch_Hound".
+
+  Extract clean, closed line art from this photo for Procreate.
+
+EXAMPLE FLOW
+  You:   /coloring-page-converter "C:\path\to\creature.jpg"
+  Model: 1. Uses the Canonical Translation Prompt to render pen-and-ink line art.
+         2. Post-processes to binary monochrome (pure black on pure white).
+         3. Verifies closed boundaries and checks for zero leaks.
+         4. Produces master white JPG, transparent PNG, iPad files, and Letter/A4 PDFs.
+         5. Saves watermarked preview (0_blank_wm.jpg) and QC report.
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Translate reference image using the canonical prompt into crisp line art
+  2. Enforce binary monochrome (no grayscale, no shading, no grain)
+  3. Verify all paths are closed for leak-free bucket fills
+  4. Generate master 4K white JPG, transparent PNG, iPad files, and PDFs
+  5. Produce watermarked preview (0_blank_wm.jpg) and QC report

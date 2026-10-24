@@ -1,0 +1,64 @@
+HOW TO USE: coloring-book-pipeline
+==================================
+
+PURPOSE
+  End-to-end bundling engine that transforms raw reference images, concepts, or
+  artwork into complete, commercial-ready digital coloring product bundles.
+  Translates the reference image using the canonical high-precision digital coloring
+  prompt, enforces leak-proof closed paths, generates a 5-colorway suite with Procreate
+  palettes, builds split covers and Pinterest pins, packages the customer ZIP
+  (including original reference artwork), and writes SEO listing copy.
+
+CAPABILITIES
+  - Direct execution on provided image path without extraneous folder searching
+  - Canonical reference image translation via the master pen-and-ink coloring prompt
+  - Binary monochrome line art post-processing (#000000 lines on #FFFFFF background)
+  - Zero-leak closed path validation for digital bucket and drag-to-fill tools
+  - Native iPad canvas sizing (2048x2732 / 2732x2048) and US Letter / A4 PDFs
+  - 1 realistic + 4 creative colorways with importable Procreate .swatches files
+  - Storefront split covers (1280x720) and tall high-converting Pinterest pins (1000x1500)
+  - Unwatermarked customer delivery archive (<Name>.zip) in _zips/ including line art, original reference art, colorways, and palettes
+  - SEO listing copy generation (<Name>_listing_copy.md) with titles, descriptions, and tags
+  - Fallback auto-detection of newest original in staging folder only when no path is provided
+
+USE CASES
+  - "Take this reference photo and build a full digital coloring product bundle"
+  - "Run the coloring book pipeline on C:\path\to\image.jpg"
+  - "Package this creature illustration for my Procreate coloring book shop"
+  - "Prepare a complete coloring page release including colorways, covers, and ZIP"
+
+IDEAS
+  - Provide image path directly to run instant conversion with zero searching
+  - Process single images or batch-process folders of original concepts
+  - Set flagship piece as a $0+ Pay-What-You-Want lead magnet to collect buyer emails
+  - List detailed standalone pages at $1.00-$3.00 for instant download
+  - Use the tall 1000x1500 before-and-after pin for organic Pinterest traffic
+
+PROMPTS YOU CAN PASTE
+  /coloring-book-pipeline "C:\Users\<you>\OneDrive\Pictures\coloring book originals - translate\image.jpg"
+
+  /coloring-book-pipeline
+
+  Build a complete coloring product bundle for this image: "C:\path\to\art.jpg"
+
+  Run the coloring book pipeline on this reference artwork with name "Eldritch_Hound".
+
+  Package this image into a full Procreate coloring page listing with colorways and pins.
+
+EXAMPLE FLOW
+  You:   /coloring-book-pipeline "C:\path\to\creature.jpg"
+  Model: 1. Uses the provided file path directly as the original reference image (zero searching).
+         2. Applies the Canonical Translation Prompt to create crisp pen-and-ink line art.
+         3. Post-processes line art into pure B&W, iPad formats, and print PDFs.
+         4. Generates realistic and 4 creative colorways + Procreate .swatches.
+         5. Composes split storefront cover and tall 1000x1500 Pinterest pin.
+         6. Packages clean customer ZIP in _zips/ (including the original reference artwork) and writes SEO listing copy.
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Use provided image path directly; if none provided, pick newest from originals staging folder
+  2. Translate reference image using canonical prompt into leak-proof line art
+  3. Produce master 4K white JPG, transparent PNG, iPad files, and Letter/A4 PDFs
+  4. Generate 5 colorway variants, Procreate .swatches, and watermarked preview gallery
+  5. Build split storefront cover, tall Pinterest pin, and square thumbnail
+  6. Assemble customer unwatermarked delivery ZIP in _zips/<Name>.zip (including original reference artwork)
+  7. Generate SEO listing sheet with Procreate keywords, 13 tags, and pricing

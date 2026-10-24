@@ -1,0 +1,55 @@
+HOW TO USE: digidreamweaver-shop-pipeline
+========================================
+
+PURPOSE
+  Master commercial publishing and social orchestration pipeline for the
+  DigiDreamWeaver digital coloring shop. Oversees canonical line art translation,
+  colorway generation, marketing asset creation, SEO copywriting, Gumroad draft
+  staging, 10/day queue management, Pinterest pins, and catalog synchronization.
+
+CAPABILITIES
+  - Enforces Canonical Translation Prompt across all asset creation
+  - Full bundle production (line art, 5 colorways, iPad files, PDFs, ZIP)
+  - Storefront covers (1280x720) and tall Pinterest pins (1000x1500)
+  - SEO copywriting with Procreate keywords, fill area counts, and 13 tags
+  - Gumroad draft staging with strict unpublished-first safety gate
+  - Enforces Gumroad 10 new products/day rate limit with automated queueing
+  - Pinterest pin scheduling linking directly to live listing URLs
+  - Master catalog maintenance (catalog.json and catalog.md)
+
+USE CASES
+  - "Run the full shop pipeline on these images"
+  - "Prep these coloring pages for Gumroad and Pinterest"
+  - "Generate listing copy, covers, pins, and queue for publishing"
+  - "Rebuild the DigiDreamWeaver shop catalog"
+
+IDEAS
+  - Price flagship piece at $0+ to seed the email subscriber list
+  - List standard pages at $1.00 for frictionless digital downloads
+  - Run queue command to inspect items scheduled for the next 9:15 AM window
+
+PROMPTS YOU CAN PASTE
+  /digidreamweaver-shop-pipeline "C:\Users\<you>\OneDrive\Pictures\coloring book originals - translate"
+
+  Run the full shop pipeline on these images.
+
+  Prep this coloring page for Gumroad and Pinterest.
+
+  Generate listing copy and Gumroad checklist for "Eldritch_Hound".
+
+  Check the publishing queue and rebuild catalog.
+
+EXAMPLE FLOW
+  You:   /digidreamweaver-shop-pipeline "C:\path\to\folder"
+  Model: 1. Translates reference images using Canonical Translation Prompt.
+         2. Packages line art, 5 colorways, iPad files, Letter/A4 PDFs, and ZIP.
+         3. Composes split storefront covers, tall Pinterest pins, and thumbnails.
+         4. Writes high-converting SEO listing copy and Gumroad draft checklists.
+         5. Enforces 10/day publishing limit and updates catalog.md matrix.
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Translate reference images via Canonical Prompt into leak-proof line art
+  2. Produce full asset bundle: 5 colorways, iPad files, PDFs, and customer ZIP
+  3. Generate storefront covers, tall Pinterest pins, and thumbnails
+  4. Create SEO listing copy with 13 tags and pricing strategy
+  5. Stage Gumroad draft checklist and update catalog matrix

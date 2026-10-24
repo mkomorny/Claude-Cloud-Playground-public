@@ -1,0 +1,50 @@
+HOW TO USE: coloring-page-colorways
+==================================
+
+PURPOSE
+  Generates 1 realistic matched preview and 4 curated creative colorway variants
+  from blank coloring book line art, plus importable Procreate .swatches palette
+  files and watermarked listing previews.
+
+CAPABILITIES
+  - Produces 1 realistic colorway matched to the original reference artwork
+  - Produces 4 creative colorways (pastel, jewel, neon, mono_accent, etc.)
+  - Preserves master pure black lines on top of color fills
+  - Generates importable Procreate .swatches files and hex-code reference sheets
+  - Saves unwatermarked full-res masters for buyer packages
+  - Generates watermarked listing previews (1_realistic_wm through 5_creative_wm)
+
+USE CASES
+  - "Generate 5 colorway variants for this coloring page"
+  - "Create colored previews and Procreate swatches from this line art"
+  - "Colorize this blank coloring page with realistic and pastel options"
+  - "Build watermarked preview gallery for Gumroad listing"
+
+IDEAS
+  - Use realistic colorway as the primary inspiration image for buyers
+  - Include Procreate .swatches inside the customer ZIP as a value-add
+  - Use creative colorways in the 2x2 grid on storefront split covers
+
+PROMPTS YOU CAN PASTE
+  /coloring-page-colorways "C:\Users\<you>\OneDrive\Pictures\Coloring Book\Eldritch_Hound"
+
+  Generate colorways for this coloring page.
+
+  Create colored in previews and Procreate swatches for this line art.
+
+  Build watermarked preview colorways from this blank page.
+
+EXAMPLE FLOW
+  You:   /coloring-page-colorways "C:\path\to\page_folder"
+  Model: 1. Reads blank line art and reference image.
+         2. Generates realistic colorway matching reference lighting.
+         3. Generates 4 creative colorways (pastel, jewel, neon, mono_accent).
+         4. Builds Procreate .swatches files in palettes/.
+         5. Saves watermarked previews in watermarked/.
+
+DEFAULT GOALS IF YOU DON'T NAME ONE
+  1. Generate 1 realistic colorway matching reference artwork
+  2. Generate 4 creative colorways (pastel, jewel, neon, mono_accent)
+  3. Create Procreate .swatches and hex palette sheets
+  4. Save unwatermarked full-res JPGs in page folder
+  5. Save tiled watermarked previews in watermarked/
